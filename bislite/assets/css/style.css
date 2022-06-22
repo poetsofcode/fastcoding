@@ -570,6 +570,7 @@ footer>div>a {
 .copyright p {
   color: #363636;
   width: 80%;
+  display: inline-block;
   font-size: 14px;
   font-weight: 400;
   text-align: left;
@@ -625,6 +626,10 @@ footer>div>a {
     height: auto;
   }
 
+  .download p {
+    width: fit-content;
+  }
+
   .download b {
     margin: 20px auto;
     height: auto;
@@ -632,7 +637,12 @@ footer>div>a {
   }
 
   footer>div {
+    padding: 5px;
     width: fit-content !important;
+  }
+
+  footer>div>h6 {
+    margin: 10px 0;
   }
 
   footer>div .end {
@@ -640,7 +650,7 @@ footer>div>a {
   }
 
   .copyright p {
-    width: fit-content !important;
+    width: fit-content;
     padding-bottom: 15px;
   }
 }
