@@ -129,11 +129,6 @@ ul.nav > li:hover > ul.subnav {
   color: #111;
 }
 
-@media only screen and (max-width: 992px) {
-  .logotype {
-    margin-top: 5px;
-  }
-}
 span {
   color: #2aacc8;
   font-weight: 400;
@@ -481,7 +476,7 @@ hr {
 .download a:hover {
   color: #fff;
 }
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 992px) {
   .download {
     height: auto;
   }

@@ -130,7 +130,7 @@ ul.nav > li:hover > ul.subnav {
 }
 
 @media only screen and (max-width: 992px) {
-  .logotype {
+  .end {
     margin-top: 5px;
   }
 }
@@ -481,7 +481,7 @@ hr {
 .download a:hover {
   color: #fff;
 }
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 992px) {
   .download {
     height: auto;
   }
