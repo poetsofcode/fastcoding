@@ -1,7 +1,7 @@
 (function ($) {
   //dom ready start
   $(document).ready(function () {
-    //testimonial carousel
+    //gallery carousel
     $(".slider").owlCarousel({
       items: 4,
       autoplay: true,
