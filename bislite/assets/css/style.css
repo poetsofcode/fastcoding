@@ -148,7 +148,7 @@ ul.nav>li:hover>ul.subnav {
   padding-bottom: 20px;
   height: auto;
   background-color: #81e4ed;
-  max-width: inherit !important;
+  max-width: inherit;
 }
 
 .herobanner img {
