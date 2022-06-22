@@ -7,7 +7,7 @@
       autoplay: true,
       loop: true,
       smartSpeed: 500,
-      // responsive: true,
+      responsive: true,
     });
   });
   //dom ready end

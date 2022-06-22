@@ -357,11 +357,7 @@ hr {
   vertical-align: top;
   padding-bottom: 20px;
 }
-@media only screen and (max-width: 992px) {
-  .latest .testimonial {
-    max-width: fit-content !important;
-  }
-}
+
 .testimonial h6 {
   font-size: 15px;
   font-weight: 700;
@@ -483,7 +479,7 @@ hr {
 }
 footer {
   text-align: justify;
-  padding: 20px 0;
+  padding: 15px 0;
 }
 footer b {
   color: #000;
@@ -493,7 +489,7 @@ footer > div {
   display: inline-block;
   width: 15%;
   vertical-align: top;
-  padding: 10px 0;
+  padding: 15px 0;
 }
 
 footer > div:first-child {

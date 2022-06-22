@@ -359,7 +359,7 @@ hr {
 }
 @media only screen and (max-width: 992px) {
   .latest .testimonial {
-    max-width: fit-content !important;
+    width: fit-content !important;
   }
 }
 .testimonial h6 {

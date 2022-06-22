@@ -358,8 +358,8 @@ hr {
   padding-bottom: 20px;
 }
 @media only screen and (max-width: 992px) {
-  .latest .testimonial {
-    max-width: fit-content !important;
+  footer > div {
+    width: fit-content !important;
   }
 }
 .testimonial h6 {
