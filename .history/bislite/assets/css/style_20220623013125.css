@@ -488,6 +488,11 @@ footer > div:last-child {
   width: 20%;
   text-align: center;
 }
+@media only screen and (max-width: 992px) {
+  footer > div {
+    width: fit-content !important;
+  }
+}
 footer > div > h6 {
   color: #111;
   font-size: 15px;
@@ -508,7 +513,11 @@ footer > div > p {
 footer > div .end {
   margin-top: 25px;
 }
-
+@media only screen and (max-width: 992px) {
+  footer > div .end {
+    margin-top: 5px;
+  }
+}
 footer > div > ul {
   list-style: none;
   padding-left: 0;
@@ -583,12 +592,6 @@ footer > div > a {
     margin: 20px auto;
     height: auto;
     display: block;
-  }
-  footer > div {
-    width: fit-content !important;
-  }
-  footer > div .end {
-    margin-top: 5px;
   }
   .copyright p {
     width: fit-content !important;

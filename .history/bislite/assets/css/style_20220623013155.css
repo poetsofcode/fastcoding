@@ -587,9 +587,6 @@ footer > div > a {
   footer > div {
     width: fit-content !important;
   }
-  footer > div .end {
-    margin-top: 5px;
-  }
   .copyright p {
     width: fit-content !important;
     padding-bottom: 15px;
