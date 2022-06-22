@@ -597,12 +597,12 @@ footer>div>a {
   }
 
   .logotype {
-    font-size: 35px;
+    margin-top: 5px;
+    font-size: ;
   }
+    .logotype>span{
 
-  .logotype>span {
-    font-size: 35px;
-  }
+    }
 
   .feature h6 {
     line-height: 1.5em;

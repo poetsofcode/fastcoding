@@ -54,7 +54,6 @@ a {
 }
 
 .logotype>span {
-  display: inline-block;
   color: #2aacc8;
   font-weight: 400;
   vertical-align: top;
@@ -597,11 +596,7 @@ footer>div>a {
   }
 
   .logotype {
-    font-size: 35px;
-  }
-
-  .logotype>span {
-    font-size: 35px;
+    margin-top: 5px;
   }
 
   .feature h6 {
