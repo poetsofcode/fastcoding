@@ -37,7 +37,8 @@ a {
 }
 @media only screen and (max-width: 992px) {
   .bl-wrap.navbar {
-    max-width: fit-content;
+    width: fit-content !important;
+    padding-bottom: 15px;
   }
 }
 .bl-wrap:after {
