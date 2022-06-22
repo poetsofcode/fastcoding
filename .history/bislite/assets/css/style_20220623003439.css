@@ -240,11 +240,7 @@ h6.plane:before {
   clear: both;
   padding-right: 10px;
 }
-@media only screen and (max-width: 992px) {
-  .feature > div {
-    width: fit-content;
-  }
-}
+
 .main {
   background-color: #fff;
   max-width: 100%;
@@ -468,13 +464,9 @@ hr {
   color: #fff;
 }
 @media only screen and (max-width: 992px) {
-  .download {
-    height: auto;
-  }
   .download b {
     margin: 20px auto;
     height: auto;
-    display: block;
   }
 }
 footer {

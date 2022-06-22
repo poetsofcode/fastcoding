@@ -240,11 +240,7 @@ h6.plane:before {
   clear: both;
   padding-right: 10px;
 }
-@media only screen and (max-width: 992px) {
-  .feature > div {
-    width: fit-content;
-  }
-}
+
 .main {
   background-color: #fff;
   max-width: 100%;
@@ -467,16 +463,6 @@ hr {
 .download a:hover {
   color: #fff;
 }
-@media only screen and (max-width: 992px) {
-  .download {
-    height: auto;
-  }
-  .download b {
-    margin: 20px auto;
-    height: auto;
-    display: block;
-  }
-}
 footer {
   text-align: justify;
 }
@@ -505,7 +491,7 @@ footer > div:last-child {
 }
 @media only screen and (max-width: 992px) {
   footer > div {
-    width: fit-content !important;
+    width: auto !important;
   }
 }
 footer > div > h6 {
