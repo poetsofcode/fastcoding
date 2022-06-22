@@ -6,8 +6,6 @@ body {
   font-size: 16px;
   line-height: 1.4em;
   color: #707070;
-  overflow-x: hidden;
-  height: 100%;
 }
 h1,
 h2,
@@ -277,9 +275,10 @@ h6.plane:before {
 }
 @media only screen and (max-width: 992px) {
   .latest {
-    padding: 15px;
+   pa
   }
 }
+
 
 .latest ul {
   float: right;

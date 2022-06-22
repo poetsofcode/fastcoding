@@ -6,8 +6,6 @@ body {
   font-size: 16px;
   line-height: 1.4em;
   color: #707070;
-  overflow-x: hidden;
-  height: 100%;
 }
 h1,
 h2,
@@ -193,6 +191,12 @@ span {
   font-weight: 700;
   text-transform: uppercase;
 }
+@media only screen and (max-width: 992px) {
+  .feature h6 {
+    line-height: 1.5em;
+    margin: 5;
+  }
+}
 
 .feature h6:before {
   content: "";
@@ -204,13 +208,7 @@ span {
   background-position: center;
   margin-right: 5%;
   vertical-align: top;
-  margin-bottom: 10px;
-}
-@media only screen and (max-width: 992px) {
-  .feature h6 {
-    line-height: 1.5em;
-    margin: 5px 0;
-  }
+  margin-bottom: 5%;
 }
 
 h6.pencil:before {
@@ -274,11 +272,6 @@ h6.plane:before {
   margin: 0 auto;
   position: relative;
   padding: 15px 0;
-}
-@media only screen and (max-width: 992px) {
-  .latest {
-    padding: 15px;
-  }
 }
 
 .latest ul {
