@@ -43,22 +43,6 @@ a {
   clear: both;
 }
 
-.logotype {
-  display: inline-block;
-  padding: 10px 15px;
-  font-size: 50px;
-  line-height: 1em;
-  font-weight: 900;
-  vertical-align: middle;
-  color: #111;
-}
-
-.logotype>span {
-  color: #2aacc8;
-  font-weight: 400;
-  vertical-align: top;
-}
-
 .nav {
   display: inline-block;
   list-style: none;
