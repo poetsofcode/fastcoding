@@ -191,14 +191,14 @@ ul.nav>li:hover>ul.subnav {
   vertical-align: top;
 }
 
-.feature h6 {
+.feature h3 {
   font-size: 15px;
   line-height: 2em;
   font-weight: 700;
   text-transform: uppercase;
 }
 
-.feature h6:before {
+.feature h3:before {
   content: "";
   background-color: #2aacc8;
   display: inline-block;
@@ -211,22 +211,22 @@ ul.nav>li:hover>ul.subnav {
   margin-bottom: 10px;
 }
 
-h6.pencil:before {
+h3.pencil:before {
   background-image: url(../img//pencil.png);
   background-repeat: no-repeat;
 }
 
-h6.fullscreen:before {
+h3.fullscreen:before {
   background-image: url(../img/fullscreen.png);
   background-repeat: no-repeat;
 }
 
-h6.lists:before {
+h3.lists:before {
   background-image: url(../img/list.png);
   background-repeat: no-repeat;
 }
 
-h6.plane:before {
+h3.plane:before {
   background-image: url(../img/airplane.png);
   background-repeat: no-repeat;
 }
@@ -293,7 +293,7 @@ h6.plane:before {
   color: #fff;
 }
 
-.latest h6:before {
+.latest h3:before {
   content: "";
   display: inline-block;
   width: 50px;
@@ -303,7 +303,7 @@ h6.plane:before {
   clear: both;
 }
 
-.latest h6 {
+.latest h3 {
   width: 200px;
   display: inline;
   font-weight: 700;
@@ -376,13 +376,13 @@ hr {
   padding-bottom: 20px;
 }
 
-.testimonial h6 {
+.testimonial h3 {
   font-size: 15px;
   font-weight: 700;
   text-transform: uppercase;
 }
 
-.testimonial h6:before {
+.testimonial h3:before {
   content: "";
   display: inline-block;
   width: 50px;
@@ -392,7 +392,7 @@ hr {
   clear: both;
 }
 
-.client h6:before {
+.client h3:before {
   content: "";
   display: inline-block;
   width: 50px;
@@ -518,7 +518,7 @@ footer>div:last-child {
   text-align: center;
 }
 
-footer>div>h6 {
+footer>div>h3 {
   color: #111;
   font-size: 15px;
   font-weight: 700;
@@ -605,7 +605,7 @@ footer>div>a {
     font-size: 35px;
   }
 
-  .feature h6 {
+  .feature h3 {
     line-height: 1.5em;
     margin: 5px 0;
   }
@@ -641,7 +641,7 @@ footer>div>a {
     width: fit-content !important;
   }
 
-  footer>div>h6 {
+  footer>div>h3 {
     margin: 10px 0;
   }
 
